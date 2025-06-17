@@ -112,7 +112,7 @@ app.post('/api/callAccepted', async (req, res) => {
                     },
                     payload: {
                         aps: {
-                            content-available: 1, // For silent notifications that wake the app
+                            'content-available': 1, // For silent notifications that wake the app
                             // alert: { title: 'Call Ended', body: 'This call was answered elsewhere.' }, // Optional: for a subtle notification
                             sound: 'default' // This can sometimes help clear ongoing sounds on iOS
                         }
