@@ -1,13 +1,22 @@
 {
-  "type": "service_account",
-  "project_id": "project-6268143036742335384",
-  "private_key_id": "12e4bbc1d0506042d91f1e9b8a06f3882215a6f9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCHUE5Iz8kkBnB\nx3kd16nlnFMKBOSmF4bhj3vOxfHu0yRn1oZqSGPfeEh7VA44X168y+f6l63vSdmR\nxmwZyUDd7wlH9jKTIYCBAh3G5dQfLDOSEWYXWIj9UYkBFPF6Kggy48OZY25vISZQ\nu572TjmDVOgoIgOMtNWLN4Gml2qPezSDtrZ3A/gdYgHwHZ3+KxWdQXB8wyu0XyRA\nRXXgAjLZ8bNg1FfKIzUnHF4VIkD/QNiOuF1nHlsX+oQRZFEVrcQ0WBuK7PUAoXW9\n8csikqFwlA6XEsSmgAmO2yUVzRpe/Q5F2xqj/r5bGBODJtynHkiYBoswwBP97930\nUcEv/d69AgMBAAECggEAGehjqyecJtogxe9EqAn/wAiUQLMUfWKIexR2dsuOlcyS\ngFVujULqKYpZSjSWzUlVUKd6Z8TUzyoxIraz+OEWikh8GaGvcFm5V/6bUM+d9yck\nHuu5j4YeiojWW1GbRS3U+E3T7mYJ+EUZYw8XkVIxdOjhL3ISvTXphnI7GKv+6fVQ\nw6OMv7tzj8q9sUjcQUskWpOWm4PUuQMbJoDVvN8861tnce9bR41GTxCaVTsH8a1X\n0Mhhk6gxIzhioEjel9ZKlnmYN5eomhbNsqgkgLA3oO5vg2fV+fc58OTppS0RUHsF\nxtNCVJSosACwS64jSc9JfVAjjBT/THu+LHaSLt/qFQKBgQD7w/hsGfMng7XwLgWE\nj1z9g4RzrFCh/Efh+WUfYsRNLRMX+Bor6SVQXV/sYc5tI4SmjOzDEKzxgkI5kDXp\nOGpkis2Logsl5t0CwcynGUVL0LGxqg0DYhTX0V8b8qXIX8q0MKQaYDD5TIW5EDTW\nBqyskgE8YEfASXLM1DduhAIjjwKBgQDFYQ4IPaB6k7FaQJIZMbZ8YMz2SN535mWD\nus3VfPMnp8SBrF6Wj3dqRARXil88lbg6146ZfOCpufd0P9ArQrTjfQzAZmIjzqfr\nfmOBI+KHfdC7K7tYuw/aqrMDT4B0KjWmy+3FHt5xtsJXvuGMpIY76/vb0S+OwIuf\naphjE+EC8wKBgQD7tjPCSLONdybIygpkPT14jSw4xjgbq/JmYIUUuxeOHZmwZjIs\nYr4WujR0TlknTtKJ/e2dHSf7kgMKMD9mPCxK92eHymwg6c9fuUkWa7KXmUB/Y4f9\nMOur1r2jYJcVXYh5XQRFBpUQOsybeTOKJEQxiQxJQ+2YtxZa6XW+PacxywKBgA/6\n7aHpK2cBMii2dZ2okre7NpzyBWD7vFhP9X5FYYJiaNx+0iGqd+aYnylfQJqtHH9X\nGGqA28eiENDOodH+0ppgc3nYUDXJ83pzfybjeuGxZAbjYYWrj3sKuveXpjTBfhqF\nBDkjaKsYOt/TynsSjvOnBXskko8iM6uye6f54gvVAoGAPqoJ4CDmrF4mdb6KrAge\ns8CaeWQKKVsZqxeAp/34XAjWwQjeHBELGBB/exA4uWwgoClC1c3UJ+eFNRHo8x6Q\nMx6svJ+SnbCv67sLGb6diqmQ6lmui2ER1ibRc0nMM5K6Q4+dhmc1EKya1M/3Myea\ntdhEL/p48FlURi6BtdM7NQA=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-fbsvc@project-6268143036742335384.iam.gserviceaccount.com",
-  "client_id": "109010963144952719448",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40project-6268143036742335384.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "name": "my-call-server",
+  "version": "1.0.0",
+  "description": "Server for handling call cancellation via FCM.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fcm",
+    "firebase",
+    "calls",
+    "cancellation"
+  ],
+  "author": "Your Name/Organization",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0"
+  }
 }
